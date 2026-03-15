@@ -48,8 +48,9 @@ Train the autoencoder using the noisy images as input and the original clean ima
 ---
 
 ## PROGRAM
-### Name: DINESH R
-### Register Number: 212224240037
+### Name: Nitheesh Kumar B
+### Register Number: 212224230189
+```PYTHON
 class DenoisingAutoencoder(nn.Module):
     def __init__(self):
         super(DenoisingAutoencoder, self).__init__()
@@ -117,8 +118,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: DINESH R")
-    print("Register Number:212224240037")
+    print("Name: Nitheesh Kumar B")
+    print("Register Number: 212224230189")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
         # Original
