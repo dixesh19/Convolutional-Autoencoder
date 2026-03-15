@@ -48,8 +48,8 @@ Train the autoencoder using the noisy images as input and the original clean ima
 ---
 
 ## PROGRAM
-### Name: Nitheesh Kumar B
-### Register Number: 212224230189
+### Name: DINESH R
+### Register Number: 212224240037
 ```PYTHON
 class DenoisingAutoencoder(nn.Module):
     def __init__(self):
